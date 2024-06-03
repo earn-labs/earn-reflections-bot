@@ -1,4 +1,3 @@
-import asyncio
 import logging
 from uuid import uuid4
 from telegram import (
@@ -156,13 +155,9 @@ def main() -> None:
     )
 
     # define handlers
-    # start_handler = CommandHandler("start", start)
-    # reflections_handler = CommandHandler("reflections", reflections)
     inline_reflections_handler = InlineQueryHandler(inline_reflections)
 
     # add commands
-    # application.add_handler(start_handler)
-    # application.add_handler(reflections_handler)
     application.add_handler(conv_handler)
     application.add_handler(inline_reflections_handler)
 
