@@ -1,12 +1,6 @@
 # TELEGRAM REFLECTIONS BOT
 ![Version](https://img.shields.io/badge/version-1.1.0-blue.svg?style=for-the-badge)
 ![Python](https://img.shields.io/badge/python-v3.10.12-blue.svg?style=for-the-badge)
-[![License: MIT](https://img.shields.io/github/license/trashpirate/reflections-bot?style=for-the-badge)](https://github.com/trashpirate/reflections-bot/blob/master/LICENSE)
-
-[![Website: nadinaoates.com](https://img.shields.io/badge/Portfolio-00e0a7?style=for-the-badge&logo=Website)](https://nadinaoates.com)
-[![LinkedIn: nadinaoates](https://img.shields.io/badge/LinkedIn-0a66c2?style=for-the-badge&logo=LinkedIn&logoColor=f5f5f5)](https://linkedin.com/in/nadinaoates)
-[![Twitter: N0_crypto](https://img.shields.io/badge/@N0_crypto-black?style=for-the-badge&logo=X)](https://twitter.com/N0_crypto)
-
 
 > This telegram calculates the reflections for a particular wallet that holds a ERC20 reflection token. Reflection tokens distribute rewards based on transaction fees. However, the rewards are typically distributed without individual transactions and the reflections collected by each wallet are hard to determine. This bot was designed to allow users to easily determine the amount of reflections they have collected since they acquired the token. The bot calculates the total of incoming and outgoing funds and then calculates the difference of the actual balance and the remaining funds (= reflection amount). The bot was deployed on Heroku.
 
@@ -45,9 +39,9 @@ $ pip install -r requirements.txt
 
 ## 📝 License
 
-Copyright © 2024 [Nadina Oates](https://github.com/trashpirate).
+Copyright © 2025 [EARN Labs](https://github.com/earn-labs).
 
-This project is [MIT](https://github.com/trashpirate/reflections-bot/blob/master/LICENSE) licensed.
+This project is [MIT](https://github.com/earn-labs/reflections-bot/blob/master/LICENSE) licensed.
 
 
 
